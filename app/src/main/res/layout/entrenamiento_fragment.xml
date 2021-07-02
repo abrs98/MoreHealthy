@@ -65,14 +65,21 @@
 
                 android:layout_width="377dp"
                 android:layout_height="250dp"
-                android:background="@drawable/entrenamiento_inicial"
                 android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btn_ent_ini"
+                    android:layout_width="match_parent"
+                    android:padding="0dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/entrenamiento_inicial"
+                    android:scaleType="centerCrop"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginTop="197dp">
+                    android:layout_marginTop="-53dp">
 
                     <LinearLayout
                         android:layout_width="377dp"
@@ -155,16 +162,23 @@
 
             <LinearLayout
 
-                android:layout_width="match_parent"
+                android:layout_width="377dp"
                 android:layout_height="250dp"
-                android:background="@drawable/entrenamiento_funcional"
                 android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/btn_ent_fun"
+                    android:layout_width="match_parent"
+                    android:padding="0dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/entrenamiento_funcional"
+                    android:scaleType="centerCrop"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
-                    android:layout_marginTop="197dp">
+                    android:layout_marginTop="-53dp">
 
                     <LinearLayout
                         android:layout_width="377dp"
@@ -196,42 +210,7 @@
 
 
                     </LinearLayout>
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@color/azul1"
-                        android:paddingBottom="@dimen/textMargin"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:layout_width="126dp"
-                            android:gravity="center"
-                            android:textColor="@color/azuloscuro1"
-                            android:textStyle="bold"
-                            android:layout_height="wrap_content"
-                            android:text="50 Minutos"/>
-
-                        <TextView
-                            android:layout_width="126dp"
-                            android:layout_height="wrap_content"
-                            android:textColor="@color/azuloscuro1"
-                            android:textStyle="bold"
-                            android:gravity="center"
-                            android:text="Moderada"/>
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:textColor="@color/azuloscuro1"
-                            android:textStyle="bold"
-                            android:gravity="center"
-                            android:text="Principiante"/>
-
-
-                    </LinearLayout>
-
                 </LinearLayout>
-
             </LinearLayout>
         </LinearLayout>
 
