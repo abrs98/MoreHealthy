@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MoreHealthy">
-        <activity android:name=".InicioActivity"ss
+        <activity
+            android:name=".InicioActivity"
             android:label="@string/title_activity_inicio"></activity>
         <activity android:name=".GoogleLoginActivity" />
         <activity android:name=".MainActivity">

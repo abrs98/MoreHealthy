@@ -1,18 +1,240 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".EntrenamientoFragment"
+    android:orientation="vertical"
+    >
 
-    <TextView
-        android:layout_width="wrap_content"
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:title="Entrenamientos"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/Theme.MoreHealthy"
+        app:titleTextColor="@color/blanco"
+        app:menu="@menu/button_nav_menu"
+        popupTheme="@style/ThemeOverlay.AppCompat.Light">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="17dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="@string/entrenamos_question" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/textMargin"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif"
+                android:text="@string/entrenamos_contenido"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/azuloscuro2"
+                android:padding="@dimen/image_text_padding"
+                android:layout_marginTop="@dimen/textMargin"
+                android:text="ENTRENAMIENTO INICIAL"
+                android:gravity="center"
+                android:textColor="@color/blanco"
+                android:textSize="@dimen/image_text_size" />
+
+            <LinearLayout
+
+                android:layout_width="377dp"
+                android:layout_height="250dp"
+                android:background="@drawable/entrenamiento_inicial"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="197dp">
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="23dp"
+                        android:paddingTop="@dimen/textMargin"
+                        android:background="@color/azul1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="126dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textSize="13sp"
+                            android:text="Tiempo"/>
+
+                        <TextView
+                            android:layout_width="126dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:text="Intensidad"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:text="Nivel"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/azul1"
+                        android:paddingBottom="@dimen/textMargin"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="126dp"
+                            android:gravity="center"
+                            android:textColor="@color/azuloscuro1"
+                            android:textStyle="bold"
+                            android:layout_height="wrap_content"
+                            android:text="30 Minutos"/>
+
+                        <TextView
+                            android:layout_width="126dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/azuloscuro1"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:text="Moderada"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/azuloscuro1"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:text="Principiante"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/azuloscuro2"
+                android:padding="@dimen/image_text_padding"
+                android:layout_marginTop="@dimen/textMargin"
+                android:text="ENTRENAMIENTO FUNCIONAL"
+                android:gravity="center"
+                android:textColor="@color/blanco"
+                android:textSize="@dimen/image_text_size" />
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:background="@drawable/entrenamiento_funcional"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="197dp">
+
+                    <LinearLayout
+                        android:layout_width="377dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="23dp"
+                        android:paddingTop="@dimen/textMargin"
+                        android:background="@color/azul1"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="126dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:textSize="13sp"
+                            android:text="Tiempo"/>
+
+                        <TextView
+                            android:layout_width="126dp"
+                            android:layout_height="wrap_content"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:text="Intensidad"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:text="Nivel"/>
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/azul1"
+                        android:paddingBottom="@dimen/textMargin"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="126dp"
+                            android:gravity="center"
+                            android:textColor="@color/azuloscuro1"
+                            android:textStyle="bold"
+                            android:layout_height="wrap_content"
+                            android:text="50 Minutos"/>
+
+                        <TextView
+                            android:layout_width="126dp"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/azuloscuro1"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:text="Moderada"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/azuloscuro1"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:text="Principiante"/>
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
