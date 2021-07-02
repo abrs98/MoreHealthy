@@ -5,4 +5,6 @@
     <dimen name="textMargin">8dp</dimen>
     <dimen name="image_text_padding">8dp</dimen>
     <dimen name="image_text_size">15sp</dimen>
+    <dimen name="element_padding">25dp</dimen>
+    <dimen name="element_margin">30dp</dimen>
 </resources>
