@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="iceberg">#d2f9eb</color>
-    <color name="mint_tulip">#bcf7df</color>
-    <color name="magic_mint">#92f7d0</color>
-    <color name="medium_aquamarine">#71d8b3</color>
-    <color name="topaz">#2bbfa9</color>
-    <color name="sea">#3d9999</color>
-    <color name="regent_grey">#8190a5</color>
-    <color name="rhino">#284672</color>
-    <color name="cloud_burst">#203556</color>
-    <color name="ebony_clay">#1e2d3e</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="azul3">#D2F9EB</color>
+    <color name="azul2">#BCF7DF</color>
+    <color name="azul1">#92F7D0</color>
+    <color name="azulVerde1">#71D8B3</color>
+    <color name="azulVerde2">#2BBFA9</color>
+    <color name="azulVerde3">#3D9999</color>
+    <color name="azulVerde4">#FF018786</color>
+    <color name="gris">#8190A5</color>
+    <color name="azulMarino">#284672</color>
+    <color name="azulOscuro1">#203556</color>
+    <color name="azulOscuro2">#1E2D3E</color>
+    <color name="red">#E10000</color>
 </resources>
