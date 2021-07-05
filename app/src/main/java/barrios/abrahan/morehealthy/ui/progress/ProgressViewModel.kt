@@ -1,4 +1,4 @@
-package valenzuela.carlos.morehealthy.ui.progress
+package barrios.abrahan.morehealthy.ui.progress
 
 import androidx.lifecycle.ViewModel
 

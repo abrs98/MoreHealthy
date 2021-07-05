@@ -1,4 +1,4 @@
-package valenzuela.carlos.morehealthy.ui.food
+package barrios.abrahan.morehealthy.ui.food
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,12 +8,12 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import valenzuela.carlos.morehealthy.databinding.FragmentDashboardBinding
+import barrios.abrahan.morehealthy.databinding.FragmentFoodBinding
 
 class FoodFragment : Fragment() {
 
     private lateinit var foodViewModel: FoodViewModel
-    private var _binding: FragmentDashboardBinding? = null
+    private var _binding: FragmentFoodBinding? = null
 
     // This property is only valid between onCreateView and
     // onDestroyView.
@@ -27,13 +27,10 @@ class FoodFragment : Fragment() {
         foodViewModel =
             ViewModelProvider(this).get(FoodViewModel::class.java)
 
-        _binding = FragmentDashboardBinding.inflate(inflater, container, false)
+        _binding = FragmentFoodBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textDashboard
-        foodViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
+
         return root
     }
 

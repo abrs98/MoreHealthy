@@ -1,4 +1,5 @@
-package valenzuela.carlos.morehealthy.ui.training
+package barrios.abrahan.morehealthy.ui.training
+
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

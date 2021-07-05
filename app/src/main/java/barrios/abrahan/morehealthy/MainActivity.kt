@@ -10,7 +10,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
-import valenzuela.carlos.morehealthy.databinding.ActivityMainBinding
+//import valenzuela.carlos.morehealthy.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

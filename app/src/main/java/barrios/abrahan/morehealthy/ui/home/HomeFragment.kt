@@ -1,4 +1,4 @@
-package valenzuela.carlos.morehealthy.ui.home
+package barrios.abrahan.morehealthy.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,8 +8,8 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import valenzuela.carlos.morehealthy.R
-import valenzuela.carlos.morehealthy.databinding.FragmentHomeBinding
+import barrios.abrahan.morehealthy.R
+import barrios.abrahan.morehealthy.databinding.FragmentHomeBinding
 
 class HomeFragment : Fragment() {
 
@@ -31,10 +31,6 @@ class HomeFragment : Fragment() {
         _binding = FragmentHomeBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
-        homeViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
         return root
     }
 

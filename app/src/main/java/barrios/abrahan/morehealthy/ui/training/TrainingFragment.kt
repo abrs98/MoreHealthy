@@ -1,4 +1,4 @@
-package valenzuela.carlos.morehealthy.ui.training
+package barrios.abrahan.morehealthy.ui.training
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import valenzuela.carlos.morehealthy.databinding.FragmentTrainingBinding
+import barrios.abrahan.morehealthy.databinding.FragmentTrainingBinding
 
 class TrainingFragment : Fragment() {
 
@@ -30,10 +30,7 @@ class TrainingFragment : Fragment() {
         _binding = FragmentTrainingBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textNotifications
-        trainingViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
+
         return root
     }
 

@@ -37,11 +37,11 @@
     <string name="youCanLogin">¡Ya puedes iniciar!</string>
     <string name="youCanContinue">Continuar</string>
     <string name="admirationMark">!</string>
-    <string name="helloWithMarl">¡Hola</string>
+    <string name="helloWithMark">¡Hola</string>
     <string name="advice">Que este día sea productivo y feliz.</string>
     <string name="recommendations">Recomendaciones</string>
     <string name="recommendationsToLooseWeight">Habitos para adelgazar</string>
-    <string name="keepReadiong">Seguir leyendo</string>
+    <string name="keepReading">Seguir leyendo</string>
     <string name="hook">El ejercicio, junto con la dieta, es escencial para adelgazar
     y mantener la salud.</string>
 
@@ -109,4 +109,7 @@
     <string name="entrenamos_contenido">Comienza a entrenar con un plan personal que te guía mientras se ajusta
     a tu progreso, horario y otras actividades.</string>
 
+    <string name="search">search</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_activity_slide">SlideActivity</string>
 </resources>
