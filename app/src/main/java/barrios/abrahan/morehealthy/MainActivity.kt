@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var appBarConfiguration: AppBarConfiguration
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+<<<<<<< HEAD
         setContentView(R.layout.activity_main)
         bottomNav = findViewById(R.id.nav_view)
 
@@ -48,5 +49,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupBottomNavigation() {
         bottomNav.setupWithNavController(navController)
+=======
+        setContentView(R.layout.entrenamiento_fragment)
+>>>>>>> abrahan
     }
 }
