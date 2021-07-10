@@ -17,7 +17,7 @@
         android:elevation="4dp"
         android:theme="@style/Theme.MoreHealthy"
         app:titleTextColor="@color/blanco"
-        app:menu="@menu/button_nav_menu"
+        app:menu="@menu/bottom_nav_menu"
         popupTheme="@style/ThemeOverlay.AppCompat.Light">
 
     </androidx.appcompat.widget.Toolbar>
