@@ -7,4 +7,6 @@
     <dimen name="image_text_size">15sp</dimen>
     <dimen name="element_padding">25dp</dimen>
     <dimen name="element_margin">30dp</dimen>
+    <dimen name="excersice_type_height">90dp</dimen>
+    <dimen name="excersice_type_size">20sp</dimen>
 </resources>

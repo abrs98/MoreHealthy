@@ -14,7 +14,13 @@
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="barrios.abrahan.morehealthy.ui.dashboard.DashboardFragment"
-        android:label="Entrenamiento"
+        android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="barrios.abrahan.morehealthy.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
 
 </navigation>

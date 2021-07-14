@@ -1,4 +1,4 @@
 package barrios.abrahan.morehealthy
 
-class Training {
+class Entrenamiento {
 }
