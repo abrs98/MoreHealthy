@@ -1,10 +1,11 @@
-package barrios.abrahan.myfeelings.utilities
+package barrios.abrahan.morehealthy.utilities
 
 import android.content.Context
 import android.graphics.*
 import android.graphics.drawable.Drawable
 import androidx.core.content.ContextCompat
-import barrios.abrahan.myfeelings.R
+import barrios.abrahan.morehealthy.R
+import barrios.abrahan.myfeelings.utilities.Emociones
 
 class CustomCircleDrawable: Drawable {
 
@@ -19,7 +20,7 @@ class CustomCircleDrawable: Drawable {
     constructor(context: Context,emociones: ArrayList<Emociones>){
 
         this.context = context
-        grosorMetrica = context.resources.getDimensionPixelSize(R.dimen.graphWith)
+        grosorMetrica = context.resources.getDimensionPixelSize(R.dimen.graphWidth)
         grosorFondo = context.resources.getDimensionPixelSize(R.dimen.graphBackground)
         this.emociones=emociones
     }
@@ -29,7 +30,7 @@ class CustomCircleDrawable: Drawable {
         fondo.strokeWidth= (this.grosorFondo).toFloat()
         fondo.isAntiAlias=true
         fondo.strokeCap= Paint.Cap.ROUND
-        fondo.color= context?.resources?.getColor(R.color.gray)?: R.color.gray
+        fondo.color= context?.resources?.getColor(R.color.gris)?: R.color.gris
         val ancho: Float = (p0.width-25).toFloat()
         val alto: Float = (p0.height-25).toFloat()
 

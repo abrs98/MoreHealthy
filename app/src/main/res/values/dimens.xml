@@ -9,4 +9,6 @@
     <dimen name="element_margin">30dp</dimen>
     <dimen name="excersice_type_height">90dp</dimen>
     <dimen name="excersice_type_size">20sp</dimen>
+    <dimen name="graphWidth">20sp</dimen>
+    <dimen name="graphBackground">20sp</dimen>
 </resources>
