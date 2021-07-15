@@ -7,6 +7,20 @@
     android:id="@+id/drawer_layout"
     >
 
+    <include
+        android:id="@+id/app_bar_main"
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_left_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/nav_header_main"
+        app:menu="@menu/drawer_nav_menu" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/container"
@@ -14,32 +28,8 @@
         android:layout_height="match_parent"
         android:background="az">
 
-        <LinearLayout
-            android:id="@+id/actionBar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/azulOscuro2"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            >
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="30dp"
-                android:layout_marginEnd="15dp"
-                android:src="@drawable/buscar"
-                android:layout_gravity="center"
-                android:layout_weight="0.1"
-                android:scaleType="fitEnd"
-                android:adjustViewBounds="true"
-                android:contentDescription="@string/search"
-                />
-        </LinearLayout>
-
-
         <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/nav_view"
+            android:id="@+id/nav_bottom_view"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="0dp"
@@ -56,7 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:defaultNavHost="true"
-            app:layout_constraintBottom_toTopOf="@id/nav_view"
+            app:layout_constraintBottom_toTopOf="@id/nav_bottom_view"
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"

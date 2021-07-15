@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation2"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/nav_refactor">
+
+    <fragment
+        android:id="@+id/nav_refactor"
+        android:name="barrios.abrahan.morehealthy.ui.health.HealthFragment"
+        android:label="@string/menu_health"
+        tools:layout="@layout/fragment_health" />
+
+    <fragment
+        android:id="@+id/nav_imc"
+        android:name="barrios.abrahan.morehealthy.ui.imc.ImcFragment"
+        android:label="@string/menu_imc"
+        tools:layout="@layout/fragment_imc" />
+
+    <fragment
+        android:id="@+id/nav_notifications"
+        android:name="barrios.abrahan.morehealthy.ui.notifications.NotificationsFragment"
+        android:label="@string/menu_notifications"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="barrios.abrahan.morehealthy.ui.settings.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

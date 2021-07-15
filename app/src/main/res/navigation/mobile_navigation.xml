@@ -7,25 +7,25 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="valenzuela.carlos.morehealthy.ui.home.HomeFragment"
+        android:name="barrios.abrahan.morehealthy.ui.home.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_training"
-        android:name="valenzuela.carlos.morehealthy.ui.training.TrainingFragment"
+        android:name="barrios.abrahan.morehealthy.ui.training.TrainingFragment"
         android:label="@string/title_training"
         tools:layout="@layout/fragment_training" />
 
     <fragment
         android:id="@+id/navigation_food"
-        android:name="valenzuela.carlos.morehealthy.ui.food.FoodFragment"
+        android:name="barrios.abrahan.morehealthy.ui.food.FoodFragment"
         android:label="@string/title_food"
         tools:layout="@layout/fragment_food" />
 
     <fragment
         android:id="@+id/navigation_progress"
-        android:name="valenzuela.carlos.morehealthy.ui.progress.ProgressFragment"
+        android:name="barrios.abrahan.morehealthy.ui.progress.ProgressFragment"
         android:label="@string/title_progress"
         tools:layout="@layout/fragment_progress" />
 </navigation>
