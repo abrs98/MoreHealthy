@@ -1,4 +1,4 @@
-package barrios.abrahan.morehealthy
+package barrios.abrahan.morehealthy.ui.entrenamiento
 
 import androidx.lifecycle.ViewModel
 

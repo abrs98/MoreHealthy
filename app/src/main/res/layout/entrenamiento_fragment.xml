@@ -4,23 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".EntrenamientoFragment"
+    tools:context=".ui.entrenamiento.EntrenamientoFragment"
     android:orientation="vertical"
     >
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/my_toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:title="Entrenamientos"
-        android:background="?attr/colorPrimary"
-        android:elevation="4dp"
-        android:theme="@style/Theme.MoreHealthy"
-        app:titleTextColor="@color/blanco"
-        app:menu="@menu/bottom_nav_menu"
-        popupTheme="@style/ThemeOverlay.AppCompat.Light">
-
-    </androidx.appcompat.widget.Toolbar>
 
     <LinearLayout
         android:layout_width="match_parent"

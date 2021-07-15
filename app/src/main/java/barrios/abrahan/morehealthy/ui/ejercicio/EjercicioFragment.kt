@@ -1,4 +1,4 @@
-package barrios.abrahan.morehealthy
+package barrios.abrahan.morehealthy.ui.ejercicio
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -6,25 +6,26 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import barrios.abrahan.morehealthy.R
 
-class RutinaFragment : Fragment() {
+class EjercicioFragment : Fragment() {
 
     companion object {
-        fun newInstance() = RutinaFragment()
+        fun newInstance() = EjercicioFragment()
     }
 
-    private lateinit var viewModel: RutinaViewModel
+    private lateinit var viewModel: EjercicioViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.rutina_fragment, container, false)
+        return inflater.inflate(R.layout.ejercicio_fragment, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this).get(RutinaViewModel::class.java)
+        viewModel = ViewModelProvider(this).get(EjercicioViewModel::class.java)
         // TODO: Use the ViewModel
     }
 

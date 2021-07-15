@@ -1,4 +1,4 @@
-package barrios.abrahan.myfeelings.utilities
+package barrios.abrahan.morehealthy.ui.utilities
 
 import android.content.Context
 import android.util.Log

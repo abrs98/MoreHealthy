@@ -7,20 +7,20 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="barrios.abrahan.morehealthy.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:name="barrios.abrahan.morehealthy.ui.entrenamiento.EntrenamientoFragment"
+        android:label="Entrenamiento"
+        tools:layout="@layout/entrenamiento_fragment" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="barrios.abrahan.morehealthy.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:name="barrios.abrahan.morehealthy.ui.rutina.RutinaFragment"
+        android:label="Rutina"
+        tools:layout="@layout/rutina_fragment" />
 
     <fragment
         android:id="@+id/navigation_notifications"
-        android:name="barrios.abrahan.morehealthy.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:name="barrios.abrahan.morehealthy.ui.ejercicio.EjercicioFragment"
+        android:label="Ejercicio"
+        tools:layout="@layout/ejercicio_fragment" />
 
 </navigation>

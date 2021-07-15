@@ -4,7 +4,7 @@ import android.content.Context
 import android.graphics.*
 import android.graphics.drawable.Drawable
 import androidx.core.content.ContextCompat
-import barrios.abrahan.myfeelings.R
+import barrios.abrahan.morehealthy.R
 
 class CustomBarDrawable: Drawable {
 
@@ -24,7 +24,7 @@ class CustomBarDrawable: Drawable {
         val fondo: Paint = Paint()
         fondo.style = Paint.Style.FILL
         fondo.isAntiAlias = true
-        fondo.color = context?.resources?.getColor(R.color.gray) ?: R.color.gray
+        fondo.color = context?.resources?.getColor(R.color.gris) ?: R.color.gris
         val ancho: Float = (p0.width-10).toFloat()
         val alto: Float = (p0.height-10).toFloat()
 

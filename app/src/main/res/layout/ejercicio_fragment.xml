@@ -5,20 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".EjercicioFragment">
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/my_toolbar"
-        popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="?attr/colorPrimary"
-        android:elevation="4dp"
-        android:theme="@style/Theme.MoreHealthy"
-        app:menu="@menu/bottom_nav_menu"
-        app:title="Entrenamientos"
-        app:titleTextColor="@color/blanco">
-    </androidx.appcompat.widget.Toolbar>
+    tools:context=".ui.ejercicio.EjercicioFragment">
 
     <TextView
 

@@ -12,7 +12,7 @@
         android:title="Notificaciones" />
 
     <item
-        android:id="@+id/navigation_entrenamiento"
+        android:id="@+id/navigation_notifications"
         android:icon="@drawable/ic_baseline_add_box_24"
         android:title="Entrenamiento" />
 

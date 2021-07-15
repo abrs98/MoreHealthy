@@ -1,4 +1,4 @@
-package barrios.abrahan.morehealthy
+package barrios.abrahan.morehealthy.ui.descanso
 
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
@@ -6,6 +6,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import barrios.abrahan.morehealthy.R
 
 class DescansoFragment : Fragment() {
 

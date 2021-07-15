@@ -1,4 +1,4 @@
-package barrios.abrahan.morehealthy
+package barrios.abrahan.morehealthy.ui.descanso
 
 import androidx.lifecycle.ViewModel
 
