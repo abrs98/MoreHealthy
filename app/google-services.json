@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "316458568114",
+    "project_id": "morehealthy-1626316827705",
+    "storage_bucket": "morehealthy-1626316827705.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316458568114:android:c4ba83696bee5bad3efcab",
+        "android_client_info": {
+          "package_name": "barrios.abrahan.morehealthy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316458568114-6ngssncvfp9qjjdcm2no3tmfi0rfbq6m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "barrios.abrahan.morehealthy",
+            "certificate_hash": "74f196cc18ba2060f404be9b7440bf58b82122ee"
+          }
+        },
+        {
+          "client_id": "316458568114-284837lod8j0ra5h885fk2kqkk2d95t6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaewsabR-xiVNO_4QkvFpiksNKb_rLLAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316458568114-284837lod8j0ra5h885fk2kqkk2d95t6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
