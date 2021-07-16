@@ -18,7 +18,8 @@
         android:layout_gravity="center"
         />
 
-    <LinearLayout
+    <RadioGroup
+        android:id="@+id/nivel_options"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -37,7 +38,7 @@
             android:id="@+id/ligera_toggle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sedentario"
+            android:text="Ligera"
             android:textColor="@color/azuloscuro1"
             android:gravity="center"
             />
@@ -57,7 +58,7 @@
             android:textColor="@color/azuloscuro1"
             android:gravity="center"
             />
-    </LinearLayout>
+    </RadioGroup>
 
 
 </LinearLayout>

@@ -91,7 +91,7 @@ class LoginActivity : AppCompatActivity() {
 
     private fun updateUI(account: GoogleSignInAccount?) {
         if (account != null){
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, SignupActivity::class.java)
             intent.putExtra("name", account.displayName)
             intent.putExtra("email", account.email)
             startActivityForResult(intent, COD_LOGOUT)
