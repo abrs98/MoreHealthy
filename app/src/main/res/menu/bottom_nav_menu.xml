@@ -3,6 +3,7 @@
 
     <item
         android:id="@+id/navigation_home"
+<<<<<<< HEAD
         android:icon="@drawable/ic_baseline_view_module_24"
         android:title="@string/title_home" />
 
@@ -17,4 +18,23 @@
         android:title="Entrenamiento" />
 
 
+=======
+        android:icon="@drawable/home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_training"
+        android:icon="@drawable/entrenamiento"
+        android:title="@string/title_training" />
+
+    <item
+        android:id="@+id/navigation_food"
+        android:icon="@drawable/alimentos"
+        android:title="@string/title_food" />
+
+    <item
+        android:id="@+id/navigation_progress"
+        android:icon="@drawable/progreso"
+        android:title="@string/title_progress" />
+>>>>>>> 1fe4d1c6a05bb06e76bf90cf583256809137fa96
 </menu>

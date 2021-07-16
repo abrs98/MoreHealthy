@@ -2,13 +2,28 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+<<<<<<< HEAD
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="paddingTitleMiddleScreen">190dp</dimen>
+    <dimen name="paddingContentMiddleScreen">18dp</dimen>
+    <dimen name="textSizeTitleMiddleScreen">24sp</dimen>
+    <dimen name="textSizeContentMiddleScreen">14sp</dimen>
+    <dimen name="textSizeButtons">18sp</dimen>
+
+=======
     <dimen name="textMargin">8dp</dimen>
     <dimen name="image_text_padding">8dp</dimen>
     <dimen name="image_text_size">15sp</dimen>
     <dimen name="element_padding">25dp</dimen>
     <dimen name="element_margin">30dp</dimen>
+<<<<<<< HEAD
     <dimen name="excersice_type_height">90dp</dimen>
     <dimen name="excersice_type_size">20sp</dimen>
     <dimen name="graphWidth">20sp</dimen>
     <dimen name="graphBackground">20sp</dimen>
+=======
+>>>>>>> abrahan
+>>>>>>> 1fe4d1c6a05bb06e76bf90cf583256809137fa96
 </resources>

@@ -7,11 +7,16 @@
 
     <fragment
         android:id="@+id/navigation_home"
+<<<<<<< HEAD
         android:name="barrios.abrahan.morehealthy.ui.home.HomeFragment"
+=======
+        android:name="valenzuela.carlos.morehealthy.ui.home.HomeFragment"
+>>>>>>> 1fe4d1c6a05bb06e76bf90cf583256809137fa96
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
+<<<<<<< HEAD
         android:id="@+id/navigation_dashboard"
         android:name="barrios.abrahan.morehealthy.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
@@ -23,4 +28,22 @@
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
 
+=======
+        android:id="@+id/navigation_training"
+        android:name="valenzuela.carlos.morehealthy.ui.training.TrainingFragment"
+        android:label="@string/title_training"
+        tools:layout="@layout/fragment_training" />
+
+    <fragment
+        android:id="@+id/navigation_food"
+        android:name="valenzuela.carlos.morehealthy.ui.food.FoodFragment"
+        android:label="@string/title_food"
+        tools:layout="@layout/fragment_food" />
+
+    <fragment
+        android:id="@+id/navigation_progress"
+        android:name="valenzuela.carlos.morehealthy.ui.progress.ProgressFragment"
+        android:label="@string/title_progress"
+        tools:layout="@layout/fragment_progress" />
+>>>>>>> 1fe4d1c6a05bb06e76bf90cf583256809137fa96
 </navigation>

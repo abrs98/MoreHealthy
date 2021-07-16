@@ -1,16 +1,108 @@
 <resources>
-    <string name="app_name">More Healthy</string>
+    <string name="app_name">MoreHealthy</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_food">Alimentos</string>
+    <string name="title_training">Entrenamineto</string>
+    <string name="title_progress">Progreso</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_slide_menu">SlideMenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <!-- TODO: Strings no generados -->
+    <string name="title_physical_activity">Actividad Física</string>
+    <string name="doYouHaveAMinute">¿Tiene un par de minutos?</string>
+    <string name="willYouTakeSomeTests">Tomaremos algunas pruebas de aptitud física</string>
+    <string name="takeTest">Tomar pruebas</string>
+    <string name="skip">Omitir</string>
+    <string name="whichFoodYouWant">¿Qué alimentos deseas incluir?</string>
+    <string name="selectFoodYouWant">Selecciona los alimentos que desees para generar el plan
+        de alimentación</string>
+    <string name="select">Seleccionar</string>
+    <string name="hello">Hola</string>
+    <string name="comma">,</string>
+    <string name="welcome">¡Bienvenido a More Healthy!</string>
+    <string name="ourWishes">Esperamos que puedas lograr tus objetivos</string>
+    <string name="youCanLogin">¡Ya puedes iniciar!</string>
+    <string name="youCanContinue">Continuar</string>
+    <string name="admirationMark">!</string>
+    <string name="helloWithMarl">¡Hola</string>
+    <string name="advice">Que este día sea productivo y feliz.</string>
+    <string name="recommendations">Recomendaciones</string>
+    <string name="recommendationsToLooseWeight">Habitos para adelgazar</string>
+    <string name="keepReadiong">Seguir leyendo</string>
+    <string name="hook">El ejercicio, junto con la dieta, es escencial para adelgazar
+    y mantener la salud.</string>
+
+    <string name="articleTitle">¿Cómo mantener una dieta saludable?</string>
+    <string name="firstParagraph">El simple hecho de recuperar los buenos hábitos hará gran
+        parte del trabajo, existen algunas medidas fáciles y avaladas por la ciencia que
+        acelerarán la pérdida de peso sin que sufras dietas ni entrenamientos extremos.</string>
+    <string name="secondParagraph">Duerme bien</string>
+    <string name="thirdParagraph">Para algunos expertos, esta es la regla núemro uno a la hora
+        de adelgazar, más importante incluso que la dieta o el ejercicio. Y es que numerosos
+        estudios (el último publicado esta semana en Science Advances) han demostrado la relación
+        entre el déficit de sueño y el aumento de peso. Las razones son varias, principalmente
+        hormonales pero también tan sencillas de comprender como que si tu cerebro y tu cuerpo no
+        tienen energía, la reclamarán de los alimentos más caloricos.</string>
+    <string name="fourthParagraph">Desayuna este tipo de cereales</string>
+    <string name="fifthParagraph">Desayunar cada día, incluyendo fruta y proteína, es un hábito
+        que comparten las personas delgadas. Pero, según un nuevo estudio llevado a cabo por la
+        Universidad Estatal de Pensilvania, existe un ingrediente más que, consumido en la
+        primera comida, puede ayudar a perder peso: los cereales de copos grandes. Si elegimos
+        este tipo en vez de los copos más pequeños, sera más facil controlar la cantidad y las
+        calorías</string>
+    <string name="sixthParagraph">Evita todos los refrescos y las bebidas con alcohol</string>
+    <string name="seventhParagraph">Los referescos azucarados parecen condenados a desaparecer,
+        pero lo mismo podría suceder con sus versiones libres de calorías: un reciente estudio
+        desarrollado por la Universidad Marquette y el Colegio Medico de Wisconsin comprobó
+        que los refrescos light no solo no ayudan a adelgazar, como a veces suponemos, sino que
+        incluso pueden predisponer a sufrir obesidad y diabetes. Por su parte, el alcohol aporta
+        calorías vacías que pueden evitarse con un gesto tan sencillo como sustituir esa copa
+        por un zumo natural -que te aporta vitaminas y otros micronutrientes- o, sencillamente,
+        un vaso de agua.</string>
+    <string name="eighthParagraph">Come frutas entre horas</string>
+    <string name="ninthParagraph">Al se consumida fuera de las comidas "Favorecemos una buena
+        digestión así como una mejor absorcion de los nutrientes", nos contaba la nutricionista
+        Cristina Amago, quien también apunta al desayuno como un buen momento para comer fruta.
+        Si tomas fruta a media mañana o por la tarde, además de digerirla mejor y aprovechar su
+        aporte de fibra para mantener saciada hasta la próxima comida principal, reemplazarás
+        otros snacks menos saludables y así podrás ahorrarte más de 360 calorías cada día </string>
+
+    <string name="health">Salud</string>
+    <string name="imc">IMC</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="settings">Configuración</string>
+    <string name="protein">Proteínas</string>
+    <string name="carbohydrates">Carbohidratos</string>
+    <string name="fats">Grasas</string>
+    <string name="proteinLimit">90 g</string>
+    <string name="carbohydratesLimit">135 g</string>
+    <string name="fatsLimit">32 g</string>
+    <string name="breakfast">Desayuno</string>
+    <string name="lunch">Almuerzo</string>
+    <string name="dinner">Cena</string>
+
     <string name="title_activity_facebook_login">FacebookLoginActivity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
+
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="title_activity_inicio">MainActivity</string>
-    <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="entrenamos_question">¿Entrenamos?</string>
